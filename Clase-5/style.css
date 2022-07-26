@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+/*
+    Jerarquia de estilos::after
+        - atributo style
+        - estilos del selector con ID
+        - estilos del selector con clase y pseudo-clase
+        - estilos del selector por etiquetas(h1 por ejemplo)
+        - selector universal
+*/
+
+/* Estos son selectores de etiqueta */
+h1 {
+    color: red;
+    font-family: 'Cormorant SC', serif;
+    text-align: center;
+}
+
+h1:hover{
+    color: brown;
+    cursor: pointer;
+}
+/* Selector universal*/
+/*
+* {
+    border: 1px solid pink;
+}
+*/
+
+
+#titulo-principal{
+    color: white;
+    text-align: center;
+    background-color: grey;
+    font-family: 'Cormorant SC', serif;
+}
+
+.titulo{
+    color: red;
+}
+
+#primer-parrafo{
+    height: 50vh;
+    color: white;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: bold;
+    background-color: lightblue;
+    background-image:url(./669305.jpg);
+    background-attachment:scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+}
